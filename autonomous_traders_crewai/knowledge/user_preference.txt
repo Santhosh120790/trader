@@ -1,0 +1,4 @@
+User name is Santhosh.
+User is an AI Engineer working on autonomous multi-agent systems.
+User is building an autonomous trading floor (CrewAI) that trades NSE-listed Indian stocks: IEX, NTPC Green Energy, Ola Electric, ONGC, and Suzlon.
+User's GitHub is Santhosh120790, Hugging Face is JSanthosh.

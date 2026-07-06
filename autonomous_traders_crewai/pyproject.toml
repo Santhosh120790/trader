@@ -1,0 +1,29 @@
+[project]
+name = "autonomous_traders_crewai"
+version = "0.1.0"
+description = "autonomous_traders_crewai using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]==1.14.7",
+    "crewai-tools[mcp]",
+    "massive",
+    "fastapi",
+    "uvicorn",
+    "yfinance>=1.5.1",
+]
+
+[project.scripts]
+autonomous_traders_crewai = "autonomous_traders_crewai.main:run"
+run_crew = "autonomous_traders_crewai.main:run"
+train = "autonomous_traders_crewai.main:train"
+replay = "autonomous_traders_crewai.main:replay"
+test = "autonomous_traders_crewai.main:test"
+run_with_trigger = "autonomous_traders_crewai.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
